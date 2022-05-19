@@ -31,7 +31,7 @@ function displayVideos(videos) {
     const videosDiv = document.getElementById("videos");
     videos.forEach(video => {
         iframe = `
-        <iframe class="m-3" width="500" height="300" src="http://www.youtube.com/embed/${video.id.videoId}" frameborder="0" allowfullscreen></iframe>
+        <iframe class="m-3" width="500" height="300" src="https://www.youtube.com/embed/${video.id.videoId}" frameborder="0" allowfullscreen></iframe>
         `
         videosDiv.innerHTML += iframe;
     })
