@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>YouTube Data API</title>
 </head>
+
 <body>
-    <h1>YouTube Data API</h1>
+    <div class="container" id="container">
+        <h1 class="mt-5 text-center">Youtube Data API: Search videos</h1>
+        <br>
+        <form id="searchform">
+            <div class="form-group">
+                <input type="text" class="form-control" id="search">
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Search</button>
+        </form>
+    
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
